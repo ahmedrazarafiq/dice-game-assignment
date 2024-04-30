@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://img.freepik.com/free-photo/lucky-dice-game-background_23-2150971811.jpg?t=st=1714466390~exp=1714469990~hmac=26a43430a114cc6a1e341871427c23258a1e9c1fe4e93fb4ff9654bdcc40bcaa&w=740'); /* Replace 'background.jpg' with your image path */
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #ffcc00;
+  }
+  
+  
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .box-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .box {
+    height: 90px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none; 
+    border-radius: 10px;
+    font-size: 40px;
+    cursor: pointer;
+    background: linear-gradient(135deg, #002f4b, #001120); 
+    color: #ffcc00; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background 0.3s, color 0.3s, transform 0.3s;
+  }
+  
+  .box:hover {
+    background: linear-gradient(135deg, #001120, #002f4b);
+    color: #ffcc00; 
+    transform: scale(1.1); 
+  }
+  
+  
+  .info_box {
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ffcc00; 
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    background: linear-gradient(135deg, #002f4b, #001120); 
+    color: #ffcc00; /* Gold text */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+    margin-right: 10px; 
+  }
+  
